@@ -1,4 +1,4 @@
-FROM node:alpine:3.13.2
+FROM node
 COPY . .
 EXPOSE 8080
 CMD ["node", "server.js"]
